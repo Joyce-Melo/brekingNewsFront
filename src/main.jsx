@@ -1,8 +1,8 @@
-import React from 'react' //Executando o react
-import ReactDOM from 'react-dom/client' //manipulando a DOM
-import App from './App' //importando um componenete
+import React from 'react' 
+import ReactDOM from 'react-dom/client' 
+import App from './App' 
 
-ReactDOM.createRoot(document.getElementById('root')).render( //esse root está no index.html e erstarei renderizando o componenete App que está ali embaixo
+ReactDOM.createRoot(document.getElementById('root')).render( 
   <React.StrictMode>
     <App />
   </React.StrictMode>,

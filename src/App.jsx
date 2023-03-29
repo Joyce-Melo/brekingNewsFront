@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <GlobalStyled/> 
-    {/* Qualquer tag que eu colocar abaixo do GlobalStyled irá assumir o estilo do nosso globalstyled.jsx */}
+    {}
     <Home /> 
     </>
   )
